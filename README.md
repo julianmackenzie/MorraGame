@@ -7,6 +7,8 @@ This was a very difficult project, compared to what we had been assigned previou
 
 The project is a simple networked two-player game. When a server has been launched with JavaFX, two clients can join it at its selected port (and the localhost ip, as we had not talked about online networking yet). When two players have joined, the game begins.
 
+How to play:
+
 Each player selects a number of fingers to play, and a number of total fingers to guess. Iff one of them guesses the total number of displayed fingers from both parties, they score a point. Otherwise, the game continues to the next round. Once one player scores two points, they win and the players are asked to play again. If one quits, the other player is notified and the game is over.
 
 The server window tracks all of this. As the game is played, the server is responsible for all calculations, reading both players' inputs, and updating both client instances with the new state of the game.
